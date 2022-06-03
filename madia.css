@@ -18,4 +18,7 @@
         text-align: center;
         font-size: 30px;
     }
+    .body p{
+        width: 90%
+    }
 }
