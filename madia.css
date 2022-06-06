@@ -16,9 +16,47 @@
     }
     .body h1{
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
     }
     .body p{
-        width: 90%
+        font-size: 14px;
+    }
+    .why-img img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .body-why span{
+        font-size: 14px;
+    }
+    .body-why h1{
+        font-size: 40px;
+    }
+    .body-why p {
+        font-size: 14px;
+    }
+    .why-block{
+        flex-wrap: wrap;
+    }
+
+
+
+    .fea-img{
+        width: 450px;
+        margin-bottom: 50px;
+    }
+    .body-fea h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .body-fea li {
+        font-size: 14px;
+    }
+    .fea-block{
+        flex-wrap: wrap;
+    }
+
+
+    .arc-block{
+        flex-wrap: wrap;
     }
 }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="misocial logo.png">
+    <link rel="stylesheet" href="madia.css">
+    <title>Misocial</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="misocial logo.png" alt="logo">
+                <span>MISOCIAL</span>
+            </div>
+            <a href="#" class="m-menu-link">
+                <img src="threebars.svg" alt="">
+            </a>
+            <ul class="m-menu">
+                <div class="close-menu">
+                    <img src="cross.svg" alt="" width="50px">
+                </div>
+                <li> <a href="home.html">Home</a></li>
+                <li> <a href="why.html">Why MISOCIAL</a></li>
+                <li> <a href="features.html">Features</a></li>
+                <li> <a href="aricles.html">Articles</a></li>
+                <li> <a href="pricing.html">Pricing</a></li>
+                <li> <a href="#">
+                        <div class="m-menu-btn">GET STARTED</div>
+                    </a></li>
+            </ul>
+            <div class="menu visible-lg">
+                <ul>
+                    <li> <a href="home.html">Home</a></li>
+                    <li> <a href="why.html">Why MISOCIAL</a></li>
+                    <li> <a href="features.html">Features</a></li>
+                    <li> <a href="aricles.html">Articles</a></li>
+                    <li> <a href="pricing.html">Pricing</a></li>
+                    <li class="get-started-btn"> <a href="#">GET STARTED</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="why-block">
+            <div class="why-img">
+                <img src="tigr.png" alt="">
+            </div>
+            <div class="body-why">
+                <span>About Misocial</span>
+                <h1>Who we are?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, debitis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit amet consectetur adipisicing elit.
+                    Accusamus eius soluta possimus, aut nihil
+                    non.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit. sit
+                    amet consectetur adipisicing elit. Culpa, quisquam inventore? Sed explicabo.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="#">
+                <div class="box">
+                    <img src="down-arrow-svgrepo-com.svg" alt="arrow down">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            let link = $('.m-menu-link');
+            let close = $('.close-menu');
+            let menu = $('.m-menu');
+            link.on('click', function (event) {
+                event.preventDefault();
+                menu.toggleClass('m-menu__active');
+            });
+            close.on('click', function (event) {
+                event.preventDefault();
+                menu.toggleClass('m-menu__active');
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
